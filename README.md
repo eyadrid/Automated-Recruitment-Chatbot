@@ -3,12 +3,15 @@
 This project involves developing a chatbot capable of automating the recruitment process. The chatbot allows the HR department to upload multiple candidate CVs in PDF format and ask specific questions to filter out candidates based on their CVs without having to manually read each one.
 
 ## Project Structure 
-├── src/
-│   ├── htmlTemplates.py        # Contains HTML templates for the chat interface
-│   └── app.py                  # Main application code
-├── README.md
-├── requirements.txt            # List of dependencies
-└── .env  
+    ```
+        ├── src/
+        │   ├── htmlTemplates.py        # Contains HTML templates for the chat interface
+        │   └── app.py                  # Main application code
+        ├── README.md
+        ├── requirements.txt            # List of dependencies
+        └── .env  
+    ```
+
 
 ## Features
 
