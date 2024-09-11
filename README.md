@@ -3,14 +3,14 @@
 This project involves developing a chatbot capable of automating the recruitment process. The chatbot allows the HR department to upload multiple candidate CVs in PDF format and ask specific questions to filter out candidates based on their CVs without having to manually read each one.
 
 ## Project Structure 
-    ```bash
-    ├── src/
-    │   ├── htmlTemplates.py        # Contains HTML templates for the chat interface
-    │   └── app.py                  # Main application code
-    ├── README.md
-    ├── requirements.txt            # List of dependencies
-    └── .env  
-    ```
+```bash
+├── src/
+│   ├── htmlTemplates.py        # Contains HTML templates for the chat interface
+│   └── app.py                  # Main application code
+├── README.md
+├── requirements.txt            # List of dependencies
+└── .env  
+```
 
 
 ## Features
@@ -39,11 +39,11 @@ To set up the project locally, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone 
+    git clone https://github.com/eyadrid/Automated-Recruitment-Chatbot.git
     ```
 2. **Navigate to the project directory :**
     ```
-    cd 
+    cd Automated-Recruitment-Chatbot
     ```
 3. **Install the required packages using pip:**
     ```bash
@@ -51,12 +51,12 @@ To set up the project locally, follow these steps:
     ```
 
 3. **Create a `.env` file and add your OpenAI API key:**
-    ```
+    ```bash
     OPENAI_API_KEY=your_openai_api_key
     ```
 
 4. **Run the Streamlit app :**
-    ```
+    ```bash
     streamlit run app.py
     ```
 
